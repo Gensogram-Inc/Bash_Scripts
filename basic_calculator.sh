@@ -14,7 +14,7 @@ basic_calculator() {
       result=$(echo "$number1 - $number2" | bc)
       ;;
     "*")
-      result=$(echo "$number1 * $number2" | bc)
+      result=$(echo `expr $number1 \* $number2`)
       ;;
     "/")
       if [ "$number2" -ne 0 ]; then
@@ -50,10 +50,6 @@ read number1
 echo "Enter the operator (+, -, *, /):"
 read operator
 
-# Ensure the operator is correctly interpreted by the shell
-if [[ "$operator" == "*" ]]; then
-  operator='\*'
-fi
 
 echo "Enter the second number:"
 read number2
