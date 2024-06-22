@@ -34,8 +34,11 @@ basic_calculator() {
 }
 
 # This will ask staff for name and department
-echo "Please enter Staff name:"
-read name
+echo "Please enter Staff First name:"
+read firstname
+
+echo "Please enter Staff Last name:"
+read lastname
 
 echo "Please enter Staff department:"
 read department
@@ -59,6 +62,6 @@ echo "Calculating..."
 basic_calculator "$number1" "$operator" "$number2"
 
 # Display user information and the result
-echo "Name: $name"
+echo "Name: $firstname $lastname"
 echo "Department: $department"
 echo "Active years: $active"
