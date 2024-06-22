@@ -11,14 +11,11 @@ do
         echo "File not found!"
         read -p "Try again:" file
         fi
-done
 
-for (( a=1;a<5;a++ ))
-do
         word_count=$(wc -w < "$(basename $file)")
 
 
         # Print the word count
         echo "The file '$file' has $word_count words."
-        read -p "Do you want to check another file?" file
+        read -p "Do you want to check another file? Enter file name:" file
 done
