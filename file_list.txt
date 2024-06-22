@@ -1,0 +1,19 @@
+2024-06-22 03:47:51 ec2-user  directory listing started;
+total 60
+drwx------. 9 ec2-user ec2-user  4096 Jun 22 03:40 .
+drwxr-xr-x. 4 root     root        36 Jun  5 14:19 ..
+-rw-------. 1 ec2-user ec2-user 11020 Jun  8 20:05 .bash_history
+-rw-r--r--. 1 ec2-user ec2-user    18 Nov 24  2022 .bash_logout
+-rw-r--r--. 1 ec2-user ec2-user   141 Nov 24  2022 .bash_profile
+-rw-r--r--. 1 ec2-user ec2-user   557 Apr 29 00:10 .bashrc
+drwxr-xr-x. 3 ec2-user ec2-user  4096 Jun 22 03:47 Bash_Scripts
+drwx------. 3 ec2-user ec2-user    20 Apr 20 14:03 .config
+drwxr-xr-x. 3 ec2-user ec2-user    52 Jun 22 03:18 ErrorProject
+-rw-r--r--. 1 ec2-user ec2-user    50 Jun 22 03:12 .gitconfig
+drwxr-xr-x. 3 ec2-user ec2-user  4096 Jun 22 02:47 git_project
+-rw-------. 1 ec2-user ec2-user    20 Jun 22 03:39 .lesshst
+drwxr-xr-x. 2 ec2-user ec2-user     6 Jun 22 03:21 repos
+drwx------. 2 ec2-user ec2-user   103 Jun  8 03:11 .ssh
+drwxr-xr-x. 3 ec2-user ec2-user    18 Jun 15 03:24 test_repo
+-rw-------. 1 ec2-user ec2-user 13877 Jun 22 03:40 .viminfo
+2024-06-22 03:47:51 ec2-user directory listing successful!
