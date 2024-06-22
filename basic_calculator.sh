@@ -14,7 +14,7 @@ basic_calculator() {
       result=$(echo "$number1 - $number2" | bc)
       ;;
     "*")
-      result=$(echo `expr $number1 \* $number2`)
+      result=$(echo "$number1 * $number2" | bc)
       ;;
     "/")
       if [ "$number2" -ne 0 ]; then
