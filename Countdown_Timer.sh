@@ -5,7 +5,7 @@ number=$1
 
 # Loop to count down from the number to 0
 while [ $number -ge 0 ]; do
-echo $number
+echo "The number is: $number"
 
 # Make the number smaller by 1
 number=$(( number - 1 ))
