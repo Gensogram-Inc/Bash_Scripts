@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Prompt user to enter any number
-read -p "Enter a number: " number
+number=$1
 
 # Loop to count down from the number to 0
 while [ $number -ge 0 ]; do
