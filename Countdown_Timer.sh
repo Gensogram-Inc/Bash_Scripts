@@ -14,4 +14,4 @@ number=$(( number - 1 ))
 sleep 1
 done
 
-echo Success
+echo Completed
