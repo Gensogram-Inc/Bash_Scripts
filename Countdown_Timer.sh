@@ -13,3 +13,5 @@ number=$(( number - 1 ))
 # Wait for 1 second
 sleep 1
 done
+
+echo Success
