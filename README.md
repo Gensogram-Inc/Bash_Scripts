@@ -15,5 +15,5 @@ Welcome to the Bash Scripts Collection repository! This repository is a collecti
 3. Even or Odd
 
 
-
+Let's get started
 #Good luck!!!
